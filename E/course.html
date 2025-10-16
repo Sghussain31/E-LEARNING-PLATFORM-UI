@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Details</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>LearnHub</h1>
+    <nav>
+      <a href="index.html">Back to Courses</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="course-title">Course Title</h2>
+    <div class="video-container">
+      <iframe id="course-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="progress-section">
+      <label for="progress">Your Progress:</label>
+      <progress id="progress" value="0" max="100"></progress>
+      <button onclick="updateProgress()">Mark as Completed</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LearnHub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
